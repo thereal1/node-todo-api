@@ -28,5 +28,5 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
     console.log(`Couldnt find the user, got and error - ${err}`);
   });
 
-  //db.close();
+  // db.close();
 });
